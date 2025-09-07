@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap');
+
 :root {
     --cor-principal: #4B6587;
     --cor-secundaria: #C8C6C6;
@@ -19,9 +20,10 @@ body {
 
 .cabecalho {
     padding: 2% 0% 0% 15%;
+
 }
 
-.cabecalho-menu > .cabecalho-link {
+.cabecalho-menu>.cabecalho-link {
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-secundaria);
@@ -44,6 +46,7 @@ strong {
     justify-content: space-between;
     /* margin: 10% 17%; */
     text-align: center;
+    gap: 82px;
 
 }
 
@@ -107,3 +110,28 @@ strong {
     background-color: var(--cor-trapezio);
     font-size: 1.5rem;
 }
+
+@media (max-width: 1200px) {
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .cabecalho {
+        padding: 10%;
+    }
+    .cabecalho-menu {
+        justify-content: center;
+    }
+    .apresentacao-conteudo {
+        width: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    #imagem-ryan {
+        width: auto;
+        height: 400px;
+    }
+}
+
