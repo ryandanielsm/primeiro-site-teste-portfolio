@@ -111,27 +111,29 @@ strong {
     font-size: 1.5rem;
 }
 
-@media (max-width: 1200px) {
-    .apresentacao {
-        flex-direction: column-reverse;
-        padding: 5%;
-    }
-
-    .cabecalho {
-        padding: 10%;
-    }
-    .cabecalho-menu {
-        justify-content: center;
-    }
-    .apresentacao-conteudo {
-        width: auto;
-    }
-}
-
 @media (max-width: 480px) {
     #imagem-ryan {
         width: auto;
         height: 400px;
+
     }
 }
+    
+    @media (max-width: 1200px) {
+        .apresentacao {
+            flex-direction: column-reverse;
+            padding: 5%;
+        }
 
+        .cabecalho {
+            padding: 10%;
+        }
+
+        .cabecalho-menu {
+            justify-content: center;
+        }
+
+        .apresentacao-conteudo {
+            width: auto;
+        }
+    }
