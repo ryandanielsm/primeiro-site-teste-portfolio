@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap');
+:root {
+    --cor-principal: #4B6587;
+    --cor-secundaria: #C8C6C6;
+    --cor-terciaria: #93ACB5;
+    --cor-trapezio: #F7F6F2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho-menu > .cabecalho-link {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 80px;
+}
+
+strong {
+    color: black;
+}
+
+.apresentacao {
+    display: flex;
+    padding: 5% 15%;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 10% 17%; */
+    text-align: center;
+
+}
+
+.apresentacao-conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao-titulo {
+    font-size: 2.25rem;
+    font-family: Shadows Into Light, cursive;
+}
+
+.apresentacao-texto {
+    font-size: 1.5rem;
+    font-family: "Genos", sans-serif;
+}
+
+.apresentacao-link {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+
+}
+
+.botao {
+
+    width: 378px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    padding: 21.50px 0px;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: "Genos", sans-serif;
+    border: 2px solid var(--cor-secundaria);
+
+}
+
+#acesse-id {
+    font-family: Shadows Into Light, cursive;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.apresentacao-link a:hover {
+    background-color: var(--cor-terciaria);
+}
+
+.rodape {
+    text-align: center;
+    padding: 24px;
+    color: var(--cor-principal);
+    background-color: var(--cor-trapezio);
+    font-size: 1.5rem;
+}
